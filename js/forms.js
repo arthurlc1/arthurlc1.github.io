@@ -13,7 +13,7 @@
 					mailHandlerURL:'#',
 					ownerEmail:'recruitment@bystudents.co.uk',
 					stripHTML:true,
-					smtpMailServer:'imap.zoho.com',
+					smtpMailServer:'smtp.zoho.com',
 					targets:'input,textarea',
 					controls:'a[data-type=reset],a[data-type=submit]',
 					validate:true,
