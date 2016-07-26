@@ -182,6 +182,6 @@
 })(jQuery)
 $(window).load(function(){
 	$('#form').forms({
-		ownerEmail:'#'
+		ownerEmail:'recruitment@bystudents.co.uk'
 	})
 })
