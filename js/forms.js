@@ -11,9 +11,9 @@
 					successCl:'success',
 					successShow:'4000',
 					mailHandlerURL:'#',
-					ownerEmail:'recruitment@bystudents.co.uk',
+					ownerEmail:'#',
 					stripHTML:true,
-					smtpMailServer:'smtp.zoho.com',
+					smtpMailServer:'localhost',
 					targets:'input,textarea',
 					controls:'a[data-type=reset],a[data-type=submit]',
 					validate:true,
@@ -182,6 +182,6 @@
 })(jQuery)
 $(window).load(function(){
 	$('#form').forms({
-		ownerEmail:'recruitment@bystudents.co.uk'
+		ownerEmail:'recruitment@bystudents.com'
 	})
 })
