@@ -148,6 +148,11 @@ nav .grid_12 {text-align:center;}
 /*******content********/
 #content {background: url(../images/content-bg.jpg) 0 0 repeat-x #f7f7f7; vertical-align: top;}
 
+.images				{ position: relative; margin-bottom: 20px; width: 100%;}
+h3                  { position: absolute; top: 424px; left: 0; width: 100%; }
+h3 span             { color: white; font-size: 32px; letter-spacing: -1px; background: #041d31; padding: 10px; }
+h3 span.spacer      { padding: 0 2px; background: none; }
+
 .bg-1 {border-top:#c8cece 1px solid; border-bottom:#e0e0e0 1px solid; background: url(../images/bg-1.jpg) 0 0 repeat-x #f5f5f5;}
 .bg-2 {background: #f1f1f1;}
 .bg-3 {border-top:#dddddd 1px solid; border-bottom:#e2e2e2 1px solid;}
