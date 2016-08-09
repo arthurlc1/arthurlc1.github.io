@@ -5,16 +5,20 @@
 @import "../css/superfish.css";
 
 @font-face {
-    font-family: 'Amatic SC';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Amatic SC'), local('AmaticSC-Regular'), url(http://fonts.gstatic.com/s/amaticsc/v8/6UByihrsVPWtZ99tNMIgMLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+    font-family: 'Solomon';
+    font-weight: bold;
+    src: (Fonts/Solomon-black.ttf);
+}
+@font-face {
+    font-family: 'Solomonbold';
+    font-weight: 0;
+    src: (Fonts/Solomon-black.ttf);
 }
 
 html {width: 100%;}
 
 a[href^="tel:"] {color: inherit;text-decoration:none;}
-* {-webkit-text-size-adjust: none;}
+* {-webkit-text-size-adjust: none; font-family: Solomon !important;}
 
 body {
 	font: 12px/19px  Arial, Helvetica, sans-serif;
@@ -37,7 +41,7 @@ body {
 }
 h1, h2, h2, h4, h5, h6 {
 	font-weight: normal;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: Solomon;
 	color: #16445c;
 }
 h2 {
@@ -51,7 +55,7 @@ h4 {
 	color: #16445c;
 	text-transform:uppercase;
 }
-p {margin-bottom: 19px;}
+p {margin-bottom: 19px; font-family: Solomon;}
 .text-info {color:#000;}
 .lead {font-size:14px; color:#fe8948;}
 p.lead {margin-bottom:10px;}
@@ -145,12 +149,13 @@ header h1 {
 	position: relative;
 	z-index: 999;
 	margin:0;
+	font-family: Solomon;
 }
 header h1 a {display: inline;}
 header h1 a img {display: inline;}
 
 nav {background:#85ccd9; margin-top:-29px; padding:15px 0 15px 0;}
-nav .grid_12 {text-align:center;}
+nav .grid_12 {text-align:center;   }
 
 /*******content********/
 #content {background: url(../images/content-bg.jpg) 0 0 repeat-x #f7f7f7; vertical-align: top;}
