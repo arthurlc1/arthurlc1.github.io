@@ -7,12 +7,12 @@
 @font-face {
     font-family: 'Solomon';
     font-weight: bold;
-    src: (Fonts/Solomon-black.ttf);
+    src: "Fonts/Solomon-black.ttf";
 }
 @font-face {
     font-family: 'Solomonbold';
     font-weight: 0;
-    src: (Fonts/Solomon-black.ttf);
+    src: "Fonts/Solomon-bold.ttf";
 }
 
 html {width: 100%;}
@@ -138,7 +138,7 @@ a.btn:hover {
 header {
 	display: block;
 	padding: 10px 0 0;
-	z-index: 999;
+	z-index: 1;
 	background:#041d31;
 }
 
@@ -147,14 +147,14 @@ header h1 {
 	text-align:center;
 	display:block;
 	position: relative;
-	z-index: 999;
+	z-index: 1;
 	margin:0;
 	font-family: Solomon;
 }
 header h1 a {display: inline;}
-header h1 a img {display: inline;}
+header h1 a img {display: inline; z-index: 1}
 
-nav {background:#85ccd9; margin-top:-29px; padding:15px 0 15px 0;}
+nav {background:#85ccd9; margin-top:-29px; padding:5px 0 5px 0;}
 nav .grid_12 {text-align:center;   }
 
 /*******content********/
