@@ -165,6 +165,9 @@ nav .grid_12 {text-align:center;   }
 .image h3 span             { color: white; font: bold 24px/45px Helvetica, Sans-Serif; letter-spacing: -1px; background: #041d31; padding: 10px; }
 .image h3 span.spacer      { padding: 0px 5px; background: none; }
 
+.tutor h4 {padding-left:225px;}
+.tutor p {padding-left:225px; font-size: 14px;}
+
 .bg-1 {border-top:#c8cece 1px solid; border-bottom:#e0e0e0 1px solid; background: url(../images/bg-1.jpg) 0 0 repeat-x #f5f5f5;}
 .bg-2 {background: #f1f1f1;}
 .bg-3 {border-top:#dddddd 1px solid; border-bottom:#e2e2e2 1px solid;}
