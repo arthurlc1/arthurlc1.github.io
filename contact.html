@@ -54,31 +54,59 @@
       <h2 class="indent-2">ConTact Us</h2>
     </div>
     <div class="grid_5">
-      <form id="form" action="js/forms.php">
-        <div class="text-info">Send an e-mail. All fields with an * are required</div>
-        <div class="success">Contact form submitted!<br>
-          <strong>We will be in touch soon.</strong> </div>
-        <fieldset>
-          <label class="name"> <span class="title">Name*</span>
-            <input type="text" value=" ">
-            <br class="clear">
-            <span class="error error-empty">*This is not a valid name.</span><span class="empty error-empty">*This field is required.</span> </label>
-          <label class="email"> <span class="title">E-mail*</span>
-            <input type="text" value=" ">
-            <br class="clear">
-            <span class="error error-empty">*This is not a valid email address.</span><span class="empty error-empty">*This field is required.</span> </label>
-          <label class="phone"> <span class="title">Phone*</span>
-            <input type="tel" value=" ">
-            <br class="clear">
-            <span class="error error-empty">*This is not a valid phone number.</span><span class="empty error-empty">*This field is required.</span> </label>
-          <label class="message"> <span class="title">Message*</span>
-            <textarea> </textarea>
-            <br class="clear">
-            <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span> </label>
-          <div class="clear"></div>
-          <a data-type="submit" class="btn">Send</a>
-        </fieldset>
-      </form>
+      <form name="htmlform" method="post" action="html_form_send.php">
+<table width="450px">
+</tr>
+<tr>
+ <td valign="top">
+  <label for="first_name">First Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top">
+  <label for="last_name">Last Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email">Email Address *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone">Telephone Number</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="comments">Comments *</label>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+ 
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Submit">   ( <a href="http://www.freecontactform.com/html_form.php">HTML Form</a> )
+ </td>
+</tr>
+</table>
+</form>
     </div>
     <div class="grid_6 push_1">
       <div class="map">
