@@ -54,35 +54,34 @@
       <h2 class="indent-2">ConTact Us</h2>
     </div>
     <div class="grid_5">
-      <form id="form" action="https://formspree.io/arthur@bystudents.co.uk">
-        <div class="text-info">Send an e-mail. All fields with an * are required</div>
-        <div class="success">Contact form submitted!<br>
-          <strong>We will be in touch soon.</strong> </div>
+      <form id="form" action="https://formspree.io/arthur@bystudents.co.uk" method="POST">
         <fieldset>
-          <label class="name"> <span class="title">Name*</span>
-            <input type="text" value=" " name="name">
-            <br class="clear">
-            <span class="error error-empty">*This is not a valid name.</span><span class="empty error-empty">*This field is required.</span> </label>
-          <label class="email"> <span class="title">E-mail*</span>
-            <input type="text" value=" " name="email">
-            <br class="clear">
-            <span class="error error-empty">*This is not a valid email address.</span><span class="empty error-empty">*This field is required.</span> </label>
-          <label class="phone"> <span class="title">Phone*</span>
-            <input type="tel" value=" " name="phone">
-            <br class="clear">
-            <span class="error error-empty">*This is not a valid phone number.</span><span class="empty error-empty">*This field is required.</span> </label>
+          <label class="name">  
+            <span class="title">Name*</span>
+              <input type="email" name="name">
+              <br class="clear">
+          </label>
+          <label class="email"> 
+            <span class="title">Email*</span>
+              <input type="email" name="_replyto">
+              <br class="clear">
+          </label>
+          <label class="subject"> 
+            <span class="title">Subject</span>
+              <input type="email" name="Subject">
+              <br class="clear">
+          </label>
+          <label class="name"> 
+            <span class="title">Tutor</span>
+              <input type="email" name="Tutor">
+              <br class="clear">
+          </label>
           <label class="message"> <span class="title">Message*</span>
-            <textarea> </textarea>
-            <br class="clear">
-            <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span> </label>
-          <div class="clear"></div>
-          <a data-type="submit" class="btn">Send</a>
+            <textarea   name="body"></textarea>
+              <br class="clear">
+            <input type="submit" value="Send" class="btn">
         </fieldset>
       </form>
-      <form action="https://formspree.io/arthur@bystudents.co.uk" method="POST">
-        <input type="email" name="_replyto">
-        <textarea   name="body"></textarea>
-        <input type="submit" value="Send"></form>
     </div>
     <div class="grid_6 push_1">
       <div class="map">

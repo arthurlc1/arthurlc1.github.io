@@ -105,6 +105,19 @@ a.btn:hover {
 	background:  #fe8948;
 	color: #fff;
 }
+
+input.btn {
+	background: url(../images/btn.jpg) 0 0 repeat-x #fe8948;
+	display: inline-block;
+	font-family:"Times New Roman", Times, serif;
+	font-size:14px;
+	line-height:1em;
+	padding: 11px 10px 12px 30px;
+	color: #fff;
+	text-transform:uppercase;
+	margin-top: 26px;
+}
+
 .clear {clear: both;}
 .wrap {overflow:hidden;}
 .indent-1 {padding:88px 0 35px 0;}
@@ -291,6 +304,19 @@ address dl span {display:inline-block; width:100px;}
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
+}
+
+#form input.btn {
+	background: url(../images/btn.jpg) 0 0 repeat-x #fe8948;
+	display: inline-block;
+	font-family:"Times New Roman", Times, serif;
+	font-size:14px;
+	line-height:1em;
+	width: 25%;
+	height: 40px;
+	color: #fff;
+	text-transform:uppercase;
+	margin-top: 26px;
 }
 
 #form textarea {
