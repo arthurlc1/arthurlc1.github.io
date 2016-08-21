@@ -106,17 +106,6 @@ a.btn:hover {
 	color: #fff;
 }
 
-input.btn {
-	background: url(../images/btn.jpg) 0 0 repeat-x #fe8948;
-	display: inline-block;
-	font-family:"Times New Roman", Times, serif;
-	font-size:14px;
-	line-height:1em;
-	padding: 11px 10px 12px 30px;
-	color: #fff;
-	text-transform:uppercase;
-	margin-top: 26px;
-}
 
 .clear {clear: both;}
 .wrap {overflow:hidden;}
@@ -307,7 +296,7 @@ address dl span {display:inline-block; width:100px;}
 }
 
 #form input.btn {
-	background: url(../images/btn.jpg) 0 0 repeat-x #fe8948;
+	background: #fe8948;
 	display: inline-block;
 	font-family:"Times New Roman", Times, serif;
 	font-size:14px;
