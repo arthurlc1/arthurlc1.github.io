@@ -168,8 +168,8 @@ nav .grid_12 {text-align:center;   }
 .image h3 span.spacer      { padding: 0px 5px; background: none; }
 
 .tutorimage						{ position: relative; margin-bottom: 0px; width: 100%;}
-.tutorimage h3                  { position: relative; top: -55px;  width: 100%; }
-.tutorimage h3 span             { color: white; font: bold 24px/45px Helvetica, Sans-Serif; letter-spacing: -1px; background: #041d31;  }
+.tutorimage h3                  { position: relative; top: -55px;  width: 100%; text-align: center; }
+.tutorimage h3 span             { color: white; font: bold 24px/45px Helvetica, Sans-Serif; letter-spacing: -1px; background: #041d31; text-align: center; }
 
 .tutor h2 {padding-left:225px; font-size: 28px;}
 .tutor h4 {padding-left:225px; color: #85ccd9}
