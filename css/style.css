@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: 'Solomon';
-    src: "fonts/Solomon-black.ttf";
+    src: "../fonts/Solomon-black.ttf";
 }
 @font-face {
     font-family: 'Solomonbold';
     font-weight: 0;
-    src: "Fonts/Solomon-bold.ttf";
+    src: "fonts/Solomon-bold.ttf";
 }
 
 html {width: 100%;}
