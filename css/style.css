@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'Solomon';
-    src: "../arthurlc1.github.io/fonts/Solomon-black.ttf";
+    src: url(../fonts/Solomon-light.ttf);
 }
 @font-face {
     font-family: 'Solomonbold';
