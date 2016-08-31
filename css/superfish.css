@@ -13,10 +13,10 @@ ul.sf-menu>li>a {font-size:20px; line-height:2em; color:#285962; text-transform:
 ul.sf-menu>li.current , ul.sf-menu>li.sfHover , ul.sf-menu>li:hover {}
 ul.sf-menu>a, ul.sf-menu>li.sfHover>a, ul.sf-menu>li>a:hover {color:#ffffff;}
 
-.sf-menu>li>ul { width:90px; background:url(../images/nav-ul.png) 0 0 repeat; left:0px; top:64px; padding:20px 10px 20px 10px; }
+.sf-menu>li>ul { width:90px; background:url(../images/nav-ul.png) 0 0 repeat; left:0px; top:48px; padding:20px 10px 20px 10px; }
 .sf-menu>li>ul>li {display:block; width:100%; text-align:left; margin-top:10px;}
 .sf-menu>li>ul>li:first-child {margin-top:0;}
-.sf-menu>li>ul>li>a { color:#4c4a4a; font-size:14px; line-height:15px; display:inline-block;}
+.sf-menu>li>ul>li>a { color:#4c4a4a; font-size:15px; line-height:15px; display:inline-block;}
 .sf-menu>li>ul>li:hover, ul.sf-menu>li>ul>li.sfHover{ }
 .sf-menu>li>ul>li>a:hover, ul.sf-menu>li>ul>li.sfHover a {color:#85ccd9;}
 
