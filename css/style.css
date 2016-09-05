@@ -161,7 +161,7 @@ nav .grid_12 {text-align:center;   }
 /*******content********/
 #content {background: url(../images/content-bg.jpg) 0 0 repeat-x #f7f7f7; vertical-align: top;}
 
-.image				{ position: relative; margin-bottom: 20px; width: 100%;}
+.image						{ position: relative; margin-bottom: 20px; width: 100%;}
 .image h3                  { position: absolute; top: 249px; left: 0; width: 100%; }
 .image h3 span             { color: white; font: bold 27px Solomon; letter-spacing: -1px; background: #041d31; padding: 10px; padding-right :16px; margin-bottom: 14px;   }
 .image h3 span.spacer      { padding: 0px 5px; background: none; }
@@ -169,6 +169,10 @@ nav .grid_12 {text-align:center;   }
 .tutorimage						{ position: relative; margin-bottom: 0px; width: 100%;}
 .tutorimage h3                  { position: relative; top: -55px;  width: 100%; text-align: center; }
 .tutorimage h3 span             { color: white; font: bold 24px/45px Helvetica, Sans-Serif; letter-spacing: -1px; background: #041d31; text-align: center; }
+
+.service li {padding-top:20px;}
+.service li p {font-size: 17px; padding-top:5px;}
+.service li h4 {font-size: 22px}
 
 .tutor h2 {padding-left:225px; font-size: 28px;}
 .tutor h4 {padding-left:225px; color: #85ccd9}
