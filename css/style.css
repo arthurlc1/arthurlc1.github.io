@@ -390,6 +390,13 @@ footer {
 footer span {display:block; margin-top:6px;}
 footer a {color: #6398a2;}
 footer a:hover {color: #16445c;}
+
+footer address {font-size:14px; font-style:normal; margin-top:0px}
+footer address dl {float:left; width:220px;}
+footer address dl+dl {margin-left:20px;}
+footer address dl dt {margin-bottom:19px;}
+footer address dl span {display:inline-block; width:100px;}
+
 .soc-icon {display:block;}
 .soc-icon li {display:inline-block; float:right; margin-left:13px;}
 .soc-icon li a {display:block;}
